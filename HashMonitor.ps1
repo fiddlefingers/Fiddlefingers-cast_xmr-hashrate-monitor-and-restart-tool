@@ -91,7 +91,7 @@ $sleepBeforeCheck = 5	#number of seconds to wait before trying to connect to cas
 $overdriveStart = "-p1MINING1 -p2MINING2 -p3MINING3 -p4MINING4 -p5MINING5 -p6MINING6 -p7MINING7-1 -p8MINING8" #Adjust "-p1MINING1" to "-p1(Your OverdriveNTool config name)"
 
 #command to start cast.  Cast must be in the same folder to start. (Make sure to change the wallet address to your own, it's the long string of text just after the -u Also, specify how many cards you are using after the -G (0,1,2,etc to number of cards you are using). -R is needed for monitoring)
-$castStart = "cast_xmr-vega.exe -S xmr-us-west1.nanopool.org:14444 -u 47LXCiTehW18h3QZW4rSdt5ticGN7L3iKY9vYjFJMk5LZm2TUh27sBtDRAcotru8AoKW57bxhBUdJDk1ZceBh89YVaY73si -G 6,3,4,7,1,5,0,2 -R"
+$castStart = "cast_xmr-vega.exe -S xmr-us-west1.nanopool.org:14444 -u 47LXCiTehW18h3QZW4rSdt5ticGN7L3iKY9vYjFJMk5LZm2TUh27sBtDRAcotru8AoKW57bxhBUdJDk1ZceBh89YVaY73si -G 0 -R"
 
 
 ###################################################
