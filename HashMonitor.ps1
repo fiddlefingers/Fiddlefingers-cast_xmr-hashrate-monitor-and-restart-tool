@@ -4,7 +4,10 @@
 	Version 0.2
 	
 	Created due to the stability issue with the Vega GPU's and Cast-XMR and not wanting to constantly
-    monitor the system manually.
+    	monitor the system manually.
+	
+	Code idea derived from @JerichoJones "JJ-s-XMR-Stack-HashRate-Monitor-and-Restart-Tool"
+	--> https://github.com/JerichoJones/JJ-s-XMR-STAK-HashRate-Monitor-and-Restart-Tool.
 	
 	Cast-xmr has the tendency to crash, hang, or fail at times. Over time the program tends to drop
 	in hash rate or a card stops working.  This leads to losing valuble mining time until you notice
